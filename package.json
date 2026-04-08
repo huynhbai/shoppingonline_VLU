@@ -10,7 +10,7 @@
     "customer": "cd client-customer && npm start",
     
     "install-all": "npm install && cd server && npm install && cd ../client-admin && npm install && cd ../client-customer && npm install",
-    "build": "cd client-admin && npm run build && cd ../client-customer && npm run build",
+    "build": "cd client-customer && npm run build",
     "start": "cd server && node index.js"
   },
   "devDependencies": {
